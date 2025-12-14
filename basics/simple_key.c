@@ -48,7 +48,7 @@ int main(void){
 					--highlight;
 				break;
 			case KEY_DOWN:
-				if (highlight == 5)
+				if (highlight == n_choices)
 					highlight = 1;
 				else
 					++highlight;
